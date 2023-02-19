@@ -5,6 +5,9 @@ function Nav() {
 
     const navRef = useRef();
 
+    const showBar = () => {
+        navRef.current.classList.toggle('responsive-nav');
+    }
     return (
       <header>
         <h3>Logo</h3>
